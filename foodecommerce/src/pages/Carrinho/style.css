@@ -1,0 +1,120 @@
+.Container-Kart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Container-Kart p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ItemsCarrinho{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 0px #DDDDDD;
+}
+
+.ItemsCarrinho ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.ItemsCarrinho li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ItemsCarrinho li + li{
+    margin-top: 30px;
+}
+
+.ItemsCarrinho li img{
+    width: 250px;
+    height: 150px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.ItemsCarrinho li section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.ItemsCarrinho li section p{
+    font-size: 15px;
+}
+
+.ItemsCarrinho li section h4{
+    width: 125px;
+    font-size: 18px;
+}
+
+.FinalizarPagamento{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 0px #DDDDDD;
+    background-color: #EEE8AA;
+}
+
+.FinalizarPagamento h1{
+    padding: 15px;
+}
+
+.FinalizarPagamento div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.FinalizarPagamento div button{
+    width: 80px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.FinalizarPagamento div button + button{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Ajuste{
+    margin-left: 70%;
+}
+
+.qtdItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qtdItem p{
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Metodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

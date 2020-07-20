@@ -1,0 +1,97 @@
+.Container-Resultados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.Resultados{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 0px #DDDDDD;
+}
+
+.Resultados ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.Resultados li{
+    display: flex;
+    flex-direction: row;
+}
+
+.Resultados li + li{
+    margin-top: 30px;
+}
+
+.Resultados li img{
+    width: 250px;
+    height: 150px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.Resultados li h2{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.Resultados li p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    width: 900px;
+    margin-left: 15px;
+}
+
+.Resultados li span{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.AddCarrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AddCarrinho button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 18px;
+    background-color: #fb6d37;
+}
+
+.MeuCarrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 0px #DDDDDD;
+    background-color: #fcd661;
+    font-size: 15px;
+    font-weight: bold;
+}

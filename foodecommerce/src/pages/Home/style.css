@@ -1,0 +1,57 @@
+.Container-Geral{
+    display: flex;
+    flex-direction: row;
+  }
+
+.Content-Info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media(max-width: 900px){
+    .Content-Info{
+        flex-wrap: wrap;
+    }
+}
+
+.Content-Home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Promo-Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border: 0;
+    border-radius: 18px;
+    background-color: #fff7ee;
+}
+
+.Promo-Info h2{
+    font-size: 26px;
+    line-height: 30px;
+    color: #fb6d37;
+}
+
+.Promo-Info label{
+    font-size: 15px;
+    line-height: 20px;
+    color: #ddd6ce;
+}
+
+.Promo-Info p{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    text-align: right;
+    color: #fb6d37;
+    margin-left: 700px;
+}

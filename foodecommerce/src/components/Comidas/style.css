@@ -1,0 +1,76 @@
+.Content-Foods{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Content-Foods .Comida {
+    width: 300px;
+}
+
+.Content-Foods .Comida + .Comida {
+    margin-left: 10px;
+}
+
+.Comida section{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.Comida span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #DDDDDD;
+    border-radius: 0px 20px 0px 20px;
+    margin: 0;
+}
+
+.Comida h2{
+    padding: 10px;
+    font-size: 22px;
+}
+
+.Comida .InfoFood{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.InfoFood label{
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.InfoFood p{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+
+.Prato1{
+    background-image: url(../../assets/pizza.jpg);
+}
+
+.Prato2{
+    background-image: url(../../assets/hamburger.jpg);
+}
+
+.Prato3{
+    background-image: url(../../assets/macarrao.jpg);
+}
+
+
+

@@ -1,0 +1,206 @@
+.Lateral{
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid #DDDDDD;
+    background-color: #fcfcfa;
+}
+
+.User{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    width: 100px;
+    height: 90px;
+    margin-left: 65%;
+}
+
+.User span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color:#fcd661;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+/*Precisa do @media*/
+.Order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Order h1{
+    width: 90%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.Order .Address{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 130px;
+    background-color: #4f3c9e;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/*Precisa do @media*/
+.Order .Address section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.Order .Address section + section{
+    margin-bottom: 10px;
+}
+
+.Order .Address section h3{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 15px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.Order .Address section h2{
+    font-size: 18px;
+    margin-right: 15px;
+    color: #fcd661;
+    font-weight: normal;
+}
+
+.Order .Address .Time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    background-color:#604b97;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.Pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    margin-top: 20px;
+}
+
+.Pedido .ItemPedido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pedido .ItemPedido img{
+    width: 70px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fcd661;
+}
+
+.Pedido .ItemPedido p{
+    margin-top: -5px;
+    width: 40px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Pedido .ItemPedido h4{
+    width: 120px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Pedido .ItemPedido label{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.TotalPedido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.TotalPedido p{
+    font-size: 18px;
+}
+
+.Checkout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.Checkout .Quantidade{
+    margin-left: 10px;
+}
+
+.Checkout .Quantidade p{
+    font-size: 18px;
+}
+
+.Checkout .Quantidade .Contador{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.Checkout .Quantidade .Contador button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Checkout .Quantidade .Contador h1{
+    width: 50px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.Checkout button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    border: 0;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #fcd661;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
